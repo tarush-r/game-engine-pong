@@ -11,7 +11,7 @@ Game Engine that plays pong.
 </p>
 
 
-<img src="https://github.com/tarush-r/game-engine-pong/blob/master/main/gameplay.gif">
+<img src="https://github.com/tarush-r/game-engine-pong/blob/main/media/gameplay.gif">
 
 
 #### How to Run- 

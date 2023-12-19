@@ -1,0 +1,2 @@
+all:
+	g++ -o builds/prog src/main.cpp src/glad.c -I include -L include/GLFW/lib -lglfw3 -ldl -framework CoreGraphics -framework CoreFoundation -framework IOKit -framework Cocoa -framework OpenGL -framework IOKit -framework QuartzCore -framework CoreVideo

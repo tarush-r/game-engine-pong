@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++ -o builds/prog src/main.cpp src/glad.c -I include -L include/GLFW/lib -lglfw3 -ldl -framework CoreGraphics -framework CoreFoundation -framework IOKit -framework Cocoa -framework OpenGL -framework IOKit -framework QuartzCore -framework CoreVideo",
+            // "args": [
+            //     ""
+            //     // "-g",
+            //     // "src/main.cpp",
+            //     // "src/glad.c",  // Adjust this based on your source file location
+            //     // "-o",
+            //     // "builds/prog",
+            //     // "-I./include/GLFW",
+            //     // "-I./include/glad",  // Corrected include path for GLAD
+            //     // "-L./include/GLFW/lib",
+            //     // "-lglfw3",
+            //     // "-framework Cocoa",
+            //     // "-framework CoreVideo"
+            //     // "-I./include/GLFW -framework Cocoa -framework OpenGL -framework IOKit",
+            //     // "-I.include/glad -framework Cocoa -framework OpenGL -framework IOKit",
+            //     // "-L./include/GLFW/lib -1glfw3"
+            //     // Adjust the output executable name and location
+            //     // "-I",
+            //     // "include", 
+            //     // "-L",
+            //     // "lib",
+            //     // "-lstdc++" // Adjust the include directory
+            //      // Adjust the library name (without 'lib' and file extension)
+            // ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

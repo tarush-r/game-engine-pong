@@ -1,5 +1,5 @@
 </p>
-<h1 align = 'center'>Top-Down-Shooter-Game</h1>
+<h1 align = 'center'>Game Engine - Pong</h1>
 <br>
 
 
